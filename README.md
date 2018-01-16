@@ -1,7 +1,7 @@
 <div style="text-aling: center">
 	<h1>Northpole</h1>
-	<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/banner.png" alt="">
 	<p>An original and dark vim color scheme</p>
+	<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/banner.png" alt="">
 </div>
 
 Python
