@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
 	<h1>Northpole</h1>
 	<p>An original and dark vim color scheme</p>
 	<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/banner.png" alt="">
