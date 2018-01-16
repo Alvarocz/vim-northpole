@@ -1,27 +1,19 @@
-<style>
-#banner {
-	text-align: center;
-}
-.scrot {
-	width: 85%;
-}
-</style>
-
-
-<div id="banner">
+<div style="text-aling: center">
 	<h1>Northpole</h1>
 	<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/banner.png" alt="">
-	An original and dark vim color scheme
+	<p>An original and dark vim color scheme</p>
 </div>
 
 Python
-<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/scrot-python.png" class="scrot">
+<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/scrot-python.png">
 
 C++
-<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/scrot-cpp.png" class="scrot">
+<img src="https://raw.githubusercontent.com/Alvarocz/vim-northpole/master/assets/scrot-cpp.png">
 
 # Installation
-´$ git clone https://github.com/Alvarocz/vim-northpole.git && cd vim-northpole´
+```sh
+$ git clone https://github.com/Alvarocz/vim-northpole.git && cd vim-northpole
+```
 
 ## Using vim
 ```sh
