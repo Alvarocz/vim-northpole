@@ -61,7 +61,7 @@ exec "hi Identifier guifg=". s:fg.gui ." guibg=NONE gui=NONE cterm=NONE ctermfg=
 "hi Ignore 
 exec "hi Import guifg=". s:white.gui ." guibg=NONE gui=NONE ctermfg=". s:white.cterm
 exec "hi Include guifg=". s:white.gui ." guibg=NONE gui=NONE ctermfg=". s:white.cterm
-exec "hi IncSearch guifg=". s:fg.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:fg.cterm ." ctermbg=". s:dark_gray.cterm
+exec "hi IncSearch guifg=". s:cyan.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:cyan.cterm ." ctermbg=". s:dark_gray.cterm
 exec "hi Keyword guifg=". s:white.gui ." guibg=NONE gui=NONE ctermfg=". s:white.cterm
 exec "hi Label guifg=#7e8aa2 guibg=NONE gui=NONE ctermfg=103"
 exec "hi LineNr guifg=". s:fg.gui ." guibg=". s:gray_blue.gui ." gui=NONE ctermfg=". s:fg.cterm ." ctermbg=". s:gray_blue.cterm
