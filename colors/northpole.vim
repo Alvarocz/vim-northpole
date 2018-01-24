@@ -45,14 +45,14 @@ exec "hi CursorLine guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE
 exec "hi CursorLineNr guifg=". s:cyan.gui ." guibg=". s:gray_blue.gui ." gui=NONE ctermfg=". s:cyan.cterm ." ctermbg=". s:gray_blue.cterm
 exec "hi CursorColumn guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE ctermbg=". s:dark_gray.cterm
 exec "hi Cursor guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE ctermbg=241"
-exec "hi Debug guifg=#ff9800 guibg=NONE gui=NONE ctermfg=208"
+exec "hi Debug guifg=". s:light_orange.gui ." guibg=NONE gui=NONE ctermfg=". s:light_orange.cterm
 exec "hi Define guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
 exec "hi Delimiter guifg=". s:gray.gui ." guibg=NONE gui=NONE ctermfg=". s:gray.cterm
 "hi EnumerationName 
 "hi EnumerationValue 
-exec "hi Error guifg=". s:white.gui ." guibg=". s:red.gui ." gui=NONE ctermfg=". s:white.cterm ." ctermbg=". s:red.cterm
+exec "hi Error guifg=". s:bg.gui ." guibg=". s:red.gui ." gui=NONE ctermfg=". s:bg.cterm ." ctermbg=". s:red.cterm
 exec "hi ErrorMsg guifg=". s:red.gui ." guibg=NONE gui=bold cterm=bold ctermfg=". s:red.cterm
-exec "hi Exception guifg=". s:dark_blue.gui ." guibg=NONE gui=NONE ctermfg=". s:dark_blue.cterm
+exec "hi Exception guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
 exec "hi Float guifg=". s:green.gui ." guibg=NONE gui=bold cterm=bold ctermfg=". s:green.cterm
 "hi FoldColumn 
 exec "hi Folded guifg=#a0a8b0 guibg=#384048 gui=NONE ctermfg=103 ctermbg=238"
@@ -79,7 +79,7 @@ exec "hi PreCondit guifg=". s:gray.gui ." guibg=NONE gui=NONE ctermfg=". s:gray.
 exec "hi PreProc guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
 exec "hi Question guifg=". s:light_orange.gui ." guibg=NONE gui=bold cterm=bold ctermfg=". s:light_orange.cterm
 exec "hi Repeat guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
-exec "hi Search guifg=". s:blue.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:blue.cterm ." ctermbg=". s:dark_gray.cterm
+exec "hi Search guifg=". s:cyan.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:cyan.cterm ." ctermbg=". s:dark_gray.cterm
 "hi SignColumn 
 exec "hi Special guifg=". s:red.gui ." guibg=NONE gui=NONE ctermfg=". s:red.cterm
 exec "hi SpecialChar guifg=". s:orange.gui ." guibg=NONE gui=NONE ctermfg=208"
@@ -105,7 +105,6 @@ exec "hi VertSplit guifg=NONE guibg=". s:gray_blue.gui ." gui=NONE ctermfg=238 c
 exec "hi Visual guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=0 ctermbg=". s:dark_blue.cterm
 "hi WarningMsg 
 "hi WildMenu 
-
 " Python
 exec "hi pythonDecorator guifg=". s:green.gui ." guibg=NONE gui=NONE ctermfg=". s:green.cterm
 exec "hi pythonDecoratorName guifg=". s:green.gui ." guibg=NONE gui=NONE ctermfg=". s:green.cterm
@@ -116,6 +115,8 @@ exec "hi pythonexclass guifg=". s:cyan.gui ." guibg=NONE gui=NONE ctermfg=". s:c
 exec "hi htmlTag guifg=". s:gray.gui ." guibg=NONE gui=NONE ctermfg=". s:gray.cterm
 exec "hi htmlTagName guifg=". s:purple.gui ." guibg=NONE gui=NONE ctermfg=". s:purple.cterm
 exec "hi htmlArg guifg=". s:white.gui ." guibg=NONE gui=NONE ctermfg=". s:white.cterm
+
+" TODO: Add support for css
 
 " Diff
 exec "hi DiffAdd guifg=NONE guibg=". s:green.gui ." ctermbg=". s:green.cterm
