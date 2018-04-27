@@ -1,7 +1,7 @@
 " Vim color file - northpole
 " Name:       northpole.vim
 " Maintainer: https://github.com/Alvarocz/
-" Url: https://github.com/Alvarocz/vim-northpole
+" Url:        https://github.com/Alvarocz/vim-northpole
 " License:    The MIT License (MIT)
 
 set background=dark
@@ -18,7 +18,7 @@ let g:colors_name = "northpole"
 " Palette
 let s:bg = {'gui': '#1e1f25', 'cterm': 234}
 let s:fg = {'gui': '#a2a8ad', 'cterm': 247}
-let s:white = {'gui': '#D5D6D7', 'cterm': 15}
+let s:white = {'gui': '#dededf', 'cterm': 15}
 let s:light_gray = {'gui': '#caccd7', 'cterm': 252}
 let s:gray = {'gui': '#626870', 'cterm': 241}
 let s:dark_gray = {'gui': '#2C2D34', 'cterm': 236}
@@ -27,10 +27,10 @@ let s:blue = {'gui': '#8599cc', 'cterm': 33}
 let s:dark_blue = {'gui': '#58678C', 'cterm': 60}
 let s:gray_blue = {'gui': '#23242A', 'cterm': 235}
 let s:purple = {'gui': '#ad85cc', 'cterm': 57}
-let s:green = {'gui': '#54ca91', 'cterm': 47}
+let s:green = {'gui': '#53cb74', 'cterm': 47}
 let s:red = {'gui': '#ee6a6a', 'cterm': 160}
-let s:orange = {'gui': '#e89e70', 'cterm': 166}
-let s:light_orange = {'gui': '#f0c674', 'cterm': 168}
+let s:orange = {'gui': '#e28246', 'cterm': 166}
+let s:yellow = {'gui': '#d8f96b', 'cterm': 168}
 
 "hi Directory 
 exec "hi Boolean guifg=". s:white.gui ." guibg=NONE gui=bold ctermfg=". s:white.cterm
@@ -45,7 +45,7 @@ exec "hi CursorLine guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE
 exec "hi CursorLineNr guifg=". s:cyan.gui ." guibg=". s:gray_blue.gui ." gui=NONE ctermfg=". s:cyan.cterm ." ctermbg=". s:gray_blue.cterm
 exec "hi CursorColumn guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE ctermbg=". s:dark_gray.cterm
 exec "hi Cursor guifg=NONE guibg=". s:dark_gray.gui ." gui=NONE ctermfg=NONE ctermbg=241"
-exec "hi Debug guifg=". s:light_orange.gui ." guibg=NONE gui=NONE ctermfg=". s:light_orange.cterm
+exec "hi Debug guifg=". s:yellow.gui ." guibg=NONE gui=NONE ctermfg=". s:yellow.cterm
 exec "hi Define guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
 exec "hi Delimiter guifg=". s:gray.gui ." guibg=NONE gui=NONE ctermfg=". s:gray.cterm
 "hi EnumerationName 
@@ -77,14 +77,14 @@ exec "hi PMenuSel guifg=#000000 guibg=". s:green.gui ." gui=NONE ctermfg=NONE ct
 exec "hi PMenuThumb guifg=NONE guibg=". s:green.gui ." gui=NONE ctermfg=NONE ctermbg=". s:green.cterm
 exec "hi PreCondit guifg=". s:gray.gui ." guibg=NONE gui=NONE ctermfg=". s:gray.cterm
 exec "hi PreProc guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
-exec "hi Question guifg=". s:light_orange.gui ." guibg=NONE gui=bold cterm=bold ctermfg=". s:light_orange.cterm
+exec "hi Question guifg=". s:yellow.gui ." guibg=NONE gui=bold cterm=bold ctermfg=". s:yellow.cterm
 exec "hi Repeat guifg=". s:blue.gui ." guibg=NONE gui=NONE ctermfg=". s:blue.cterm
 exec "hi Search guifg=". s:cyan.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:cyan.cterm ." ctermbg=". s:dark_gray.cterm
 "hi SignColumn 
 exec "hi Special guifg=". s:red.gui ." guibg=NONE gui=NONE ctermfg=". s:red.cterm
 exec "hi SpecialChar guifg=". s:orange.gui ." guibg=NONE gui=NONE ctermfg=208"
 exec "hi SpecialComment guifg=". s:orange.gui ." guibg=NONE gui=NONE ctermfg=208"
-exec "hi SpecialKey guifg=". s:light_orange.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:light_orange.cterm ." ctermbg=". s:dark_gray.cterm
+exec "hi SpecialKey guifg=". s:yellow.gui ." guibg=". s:dark_gray.gui ." gui=NONE ctermfg=". s:yellow.cterm ." ctermbg=". s:dark_gray.cterm
 exec "hi Statement guifg=". s:white.gui ." guibg=NONE gui=NONE ctermfg=". s:white.cterm
 exec "hi StatusLine guifg=". s:white.gui ." guibg=". s:gray_blue.gui ." gui=NONE ctermfg=". s:white.cterm ." ctermbg=". s:gray_blue.cterm
 exec "hi StatusLineNC guifg=". s:gray.gui ." guibg=". s:gray_blue.gui ." gui=NONE ctermfg=". s:gray.cterm ." ctermbg=". s:gray_blue.cterm
